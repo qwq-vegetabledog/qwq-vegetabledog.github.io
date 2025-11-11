@@ -147,6 +147,15 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
+# ---
+# 数学公式支持
+# ---
+math:
+  # 在这里开启全局数学公式支持
+  enable: true
+  # 使用的库，保持 katex 即可
+  lib: katex # 可选: 'katex', 'mathjax'
+
 paginate: 10
 
 # The base URL of your site
